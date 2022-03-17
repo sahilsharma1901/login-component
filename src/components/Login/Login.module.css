@@ -1,0 +1,45 @@
+.loginContainer {
+    width: 25%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.loginForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputContainer {
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.inputLabel {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.input {
+    display: block;
+    padding: .5rem;
+}
+
+.errorMessage {
+    color: red;
+    font-size: .9rem;
+    display: none;
+}
+
+.errorMessage.show {
+    display: block;
+}
+
+.submit {
+    background-color: rgb(9, 9, 70);
+    border: none;
+    color: white;
+    padding: .5rem .75rem;
+}
+
